@@ -12,7 +12,7 @@ body {
     object-fit: cover;
 }
 .sponsor{
-     background: url('sponsorbg.jpg') no-repeat center center;
+     background: url('donateBanner.jpg') no-repeat center center;
      background-size: cover;
      height: 54vh;
 }
