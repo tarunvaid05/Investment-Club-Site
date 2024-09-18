@@ -4,6 +4,9 @@ body {
     color: white;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
 }
 .banner {
     height: 68vh; 
@@ -164,7 +167,7 @@ p {
 
 .footer{
     font-style: italic;
-    position: absolute;
+    position: relative;
     bottom: 0;
     left: 0;
     width: 100%;
@@ -192,4 +195,82 @@ p {
 }
 .icon:hover {
     transform: scale(1.1);
+}
+.hpbody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.hpbody h2{
+    margin-top: 80px;
+    margin-bottom: 10px;
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 225%;
+    font-weight: lighter;
+}
+.hpbody p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 110%;
+    margin-bottom: 60px;
+}
+#image-carousel {
+    width: 40vw;
+    height: 40vw;
+    max-height: 40vh; 
+    margin: 0 auto; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    margin-bottom: 6%;
+}
+.splide__slide img {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.buttons p{
+    align-items: center;
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 110%;
+    margin-bottom: 10px;
+}
+.email{
+    font-family: 'Lora', serif;
+    color:lightgray;
+}
+.buttonhp {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.ovalb {
+    display: inline-block;
+    background-color:brown; 
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    padding: 18px 40px; 
+    border-radius: 50px;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: background-color 0.3s ease;
+}
+
+.ovalb:hover {
+    background-color: #555; 
 }
