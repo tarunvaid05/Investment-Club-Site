@@ -254,8 +254,8 @@ p {
 }
 .buttonhp {
     text-align: center;
-    margin-top: 40px;
-    margin-bottom: 80px;
+    margin-top: 42px;
+    margin-bottom: 72px;
 }
 
 .ovalb {
@@ -273,4 +273,104 @@ p {
 
 .ovalb:hover {
     background-color: #555; 
+}
+.aboutff{
+    background: url('aboutff.png') no-repeat center center;
+    background-size: cover;
+    height: 54vh;
+    color:bisque;
+}
+
+.appbody{
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.appbody p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 140%;
+    margin-bottom: 20px;
+}
+
+.buttonauff{
+    margin-bottom: 2.1%;
+}
+.loginflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-container {
+    padding: 70.3px;
+    width: 350px;
+    text-align: center;
+}
+
+.input-box {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.input-box input {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    border: none;
+    border-bottom: 2px solid black; 
+    outline: none;
+    color: black; 
+    font-size: 18px;
+    transition: all 0.3s ease;
+}
+
+.input-box label {
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    color: black; 
+    transform: translateY(-50%);
+    transition: 0.3s;
+    pointer-events: none;
+}
+
+.input-box input:focus + label,
+.input-box input:valid + label {
+    top: -10px;
+    font-size: 14px;
+    color: black; 
+}
+
+#loginBtn {
+    font-family: 'Lora', serif;
+    width: 100%;
+    padding: 10px;
+    background-color: deepskyblue; 
+    color: black; 
+    border: none;
+    font-size: 18px;
+    border-radius: 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#loginBtn:hover {
+    background-color: #00bcd4; 
+}
+
+@keyframes buttonClick {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(0.9);
+    }
+    100% {
+        transform: scale(1);
+    }
 }
