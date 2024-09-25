@@ -24,6 +24,20 @@ body {
     background-size: cover;
     height: 54vh;
 }
+
+.aboutic{
+    background: url('aboutic.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 54vh;
+    color:bisque;
+}
+
+.eboard{
+    background: url('aboutic.jpeg') no-repeat center center;
+    background-size: cover;
+    height: 30vh;
+}
+
 .navbar {
     padding-top: 1.5%;
     overflow: hidden;
@@ -373,4 +387,18 @@ p {
     100% {
         transform: scale(1);
     }
+}
+.genbody{
+    margin-top: 2.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.genbody p{
+    color: black;
+    font-family: 'Lora', serif;
+    text-align:left;
+    font-size: 110%;
+    margin-bottom: 60px;
 }
