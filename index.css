@@ -451,3 +451,40 @@ p {
     margin-bottom: 5px;
     font-size: 14px;
 }
+.joinbody{
+    margin-top: 1.7%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 35.5px;
+}
+.joinbody p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 135%;
+    margin-bottom: 20px;
+}
+.joinbody a {
+    text-decoration: none;
+}
+.sponsorbody{
+    margin-top: 3.945%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.80%;
+}
+.sponsorbody p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 154%;
+    margin-bottom: 20px;
+}
+.sponsorbody a {
+    text-decoration: none;
+}
+
