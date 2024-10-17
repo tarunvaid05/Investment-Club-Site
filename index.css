@@ -487,4 +487,23 @@ p {
 .sponsorbody a {
     text-decoration: none;
 }
-
+.management{
+    background: url('aboutff.png') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
+.construction{
+    margin-top: 8.3%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 9.08%;
+}
+.construction p{
+    color: black;
+    text-align: center;
+    font-family: 'Lora', serif;
+    font-size: 500%;
+    margin-bottom: 20px;
+}
