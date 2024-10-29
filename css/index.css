@@ -37,6 +37,11 @@ body {
     background-size: cover;
     height: 40vh;
 }
+.useful{
+    background: url('../pics/useful.png') no-repeat center center;
+    background-size: cover;
+    height: 40vh;
+}
 
 .navbar {
     padding-top: 1.5%;
@@ -508,10 +513,10 @@ p {
     margin-bottom: 20px;
 }
 .pres {
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: 26%;
-    margin-right: 26%;
+    margin-top: 35px;
+    margin-bottom: 60px;
+    margin-left: 20%;
+    margin-right: 20%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -536,4 +541,51 @@ p {
     text-decoration: none;
     color: grey;
     font-size: 130%;
+}
+
+.usefulbody {
+    margin-left: 20%;
+    margin-right: 20%;
+    display: flex; 
+    justify-content: space-between; 
+    padding: 10px; 
+}
+
+.usefulbody h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    text-align: left; 
+    font-family: 'Lora', serif;
+    font-size: 225%;
+    font-weight: lighter;
+    width: 100%; 
+    text-decoration:underline;
+}
+.usefulbody a{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    align-self: flex-start;
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+    font-size: 130%;
+}
+
+.column {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.column h2 {
+    margin-bottom: 10px; 
+}
+
+.column ul {
+    list-style-type: none; 
+    line-height: 1.465;
+    padding: 0; 
+}
+.column li{
+    padding-bottom: 10px;
 }
