@@ -17,15 +17,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class = "banner useful">
+    <div class = "banner aboutff">
         <div class="navbar">
-            <a href="../html/index.html">Home</a>
+            <a href="../docs/index.html">Home</a>
             <div class="dropdown">
                 <div class="dropbtn">Investment Club</div>
                 <div class="dropdown-content">
                     <ul>
-                        <li><a href="../html/aboutic.html">About Us</a></li>
-                        <li><a href="../html/eboard.html">Meet the E-Board</a></li>
+                        <li><a href="../docs/aboutic.html">About Us</a></li>
+                        <li><a href="../docs/eboard.html">Meet the E-Board</a></li>
                     </ul>
                 </div>
             </div>
@@ -34,10 +34,10 @@
                 <div class="dropbtn">Fourier Fund</div>
                 <div class="dropdown-content dropfund">
                     <ul>
-                        <li><a href="../html/aboutff.html">About Us</a></li>
-                        <li><a href="../html/application.html">Application</a></li>
-                        <li><a href="../html/management.html">Management Structure</a></li>
-                        <li><a href="../html/login.html">Fund Login</a></li>
+                        <li><a href="../docs/aboutff.html">About Us</a></li>
+                        <li><a href="../docs/application.html">Application</a></li>
+                        <li><a href="../docs/management.html">Management Structure</a></li>
+                        <li><a href="../docs/login.html">Fund Login</a></li>
                     </ul>
                 </div>
             </div>
@@ -46,8 +46,8 @@
                 <div class="dropbtn">Events</div>
                 <div class="dropdown-content dropevents">
                     <ul>
-                        <li><a href="../html/eventsched.html">Event Schedule</a></li>
-                        <li><a href="../html/highlights.html">Highlights</a></li>
+                        <li><a href="../docs/eventsched.html">Event Schedule</a></li>
+                        <li><a href="../docs/highlights.html">Highlights</a></li>
                     </ul>
                 </div>
             </div>
@@ -56,41 +56,33 @@
                 <div class="dropbtn">Resources</div>
                 <div class="dropdown-content dropresources">
                     <ul>
-                        <li><a href="../html/presentations.html">Presentations</a></li>
-                        <li><a href="../html/usefuldoc.html">Useful Documents</a></li>
+                        <li><a href="../docs/presentations.html">Presentations</a></li>
+                        <li><a href="../docs/usefuldoc.html">Useful Documents</a></li>
                     </ul>
                 </div>
             </div>
-            <a href="../html/sponsor.html">Sponsor</a>
-            <a href="../html/join.html">Join</a>
+            <a href="../docs/sponsor.html">Sponsor</a>
+            <a href="../docs/join.html">Join</a>
         </div>
         <div class = "logo">
-            <a href = "../html/index.html"> <img src="../pics/logo.png"></a>
+            <a href = "../docs/index.html"> <img src="../pics/logo.png"></a>
         </div>
-    </div>   
-    <div class="usefulbody">
-        <div class="column">
-            <h2>Beginner Resources</h2>
-            <ul>
-                <li><a href="https://www.youtube.com/playlist?list=PLqROdWjf-XeHGktlUCN7wHZdBzhE47Dg8">&nbsp;&nbsp;&nbsp;- Investing 101 Playlist</a></li>
-                <li><a href="https://www.investopedia.com/">&nbsp;&nbsp;&nbsp;- Investopedia: Finance Encyclopedia</a></li>
-                <li><a href="https://www.wsj.com/">&nbsp;&nbsp;&nbsp;- The Wall Street Journal</a></li>
-                <li><a href="https://www.bloomberg.com/">&nbsp;&nbsp;&nbsp;- Bloomberg</a></li>
-                <li><a href="https://chartgame.com/">&nbsp;&nbsp;&nbsp;- ChartGame: Try Trading Without the Risk</a></li>
-                <li><a href="https://www.amazon.com/MARKS-GUIDE-SALES-TRADING-Mark/dp/B0BQ9GFG1M">&nbsp;&nbsp;&nbsp;- Mark's Guide to Sales & Trading</a></li>
-                <li><a href="https://guides.library.stonybrook.edu/az.php">&nbsp;&nbsp;&nbsp;- SBU Database: Free Access to Many Useful<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Resources</a></li>
-            </ul>
-        </div>
-        <div class="column">
-            <h2>Other Resources</h2>
-            <ul>
-                <li><a href="https://www.portfoliovisualizer.com/">&nbsp;&nbsp;&nbsp;- Portfolio Visualizer: Portfolio Analysis Tools</a></li>
-                <li><a href="https://finviz.com/">&nbsp;&nbsp;&nbsp;- Finvis: Screener, Backtester & More</a></li>
-                <li><a href="https://www.youtube.com/@mitocw">&nbsp;&nbsp;&nbsp;- MIT OCW: Free MIT Lectures</a></li>
-                <li><a href="https://wrds-www-wharton-upenn-edu.proxy.library.stonybrook.edu/connect/">&nbsp;&nbsp;&nbsp;- WRDS: Free Financial Data Sources for SBU <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Students</a></li>
-                <li><a href="https://braverock.com/brian/strat_dev_process.pdf">&nbsp;&nbsp;&nbsp;- Developing & Backtesting Systematic Trading <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Strategies by Brian Peterson: Step by Step <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Walkthrough of a Quant's Strategy Development <br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Process</a></li>
-            </ul>
-        </div>
+        <h1 class="basetitle">LOGIN</h1>
+    </div>
+    <div class = "loginflex">
+        <div class="login-container">
+            <form id="loginForm">
+                <div class="input-box">
+                    <input type="text" id="username" required>
+                    <label for="username">Username</label>
+                </div>
+                <div class="input-box">
+                    <input type="password" id="password" required>
+                    <label for="password">Password</label>
+                </div>
+                <button type="submit" id="loginBtn">Submit</button>
+            </form>
+        </div>   
     </div>
     <div class="footer">
         <div class="socialmedia">
@@ -111,6 +103,6 @@
         <br>
         Designed & Coded by Tarun Vaidhyanathan | © 2024
     </div>
-
+    <script src="../js/login.js"></script>
 </body>
 </html>
