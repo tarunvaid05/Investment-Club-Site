@@ -415,6 +415,7 @@ p {
     margin: 0 auto;
     padding: 40px;
     text-align: center;
+    justify-content: center;
 }
 
 .board-member {
@@ -595,4 +596,30 @@ p {
 }
 .column li{
     padding-bottom: 10px;
+}
+
+.managehead h2{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    color: black;
+    text-align: center; 
+    font-family: 'Lora', serif;
+    font-size: 225%;
+    font-weight: lighter;
+    width: 100%; 
+    text-decoration:underline;
+}
+.managebody{
+    margin-left: 21.5%;
+    margin-right: 0%;
+    margin-bottom: 2%;
+}
+.managebody li{
+    margin-top: 9px;
+    margin-bottom: 9px;
+    align-self: flex-start;
+    text-align: left;
+    text-decoration: none;
+    color: grey;
+    font-size: 130%;
 }
